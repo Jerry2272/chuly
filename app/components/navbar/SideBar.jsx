@@ -71,7 +71,7 @@ const SideBar = () => {
             > Dashboard</span></span>}
           </li>
           <li className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-100 cursor-pointer text-[12px] font-[500] text-black" >
-            {isOpen && <span className="flex gap-[20px]"><Image src={User} alt="User Icon" />  <span className="text-[12px] font-[600]"><a href="http://localhost:3000/Profile">My Profile</a></span> </span>}
+            {isOpen && <span className="flex gap-[20px]"><Image src={User} alt="User Icon" />  <span className="text-[12px] font-[600]"><a href="https://chuly-two.vercel.app/Profile">My Profile</a></span> </span>}
           </li>
           <li className="flex items-center gap-4 p-2 rounded-lg hover:bg-gray-100 cursor-pointer text-[12px] font-[500]">
             {isOpen && <span className="flex gap-[20px]"><Image src={Love} alt="User Icon" /> <span className="text-[12px] font-[600]">Favorites</span></span>}
