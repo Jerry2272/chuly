@@ -47,7 +47,10 @@ const CardComponent = () => {
                         </div>
 
                         <div className="card-footer flex flex-row justify-between pl-[22px] pr-[14px]">
-                            <ButtonComponent text={card.buttonText} />
+                        <ButtonComponent 
+  text={card.buttonText}  
+  bgColor={index === 4 || index === 5 ? "bg-[#00A389]" : "bg-buttonColor"} 
+/>
                             <Image src={card.LoveImg} alt={'Love Image'} />
                         </div>
                     </div>

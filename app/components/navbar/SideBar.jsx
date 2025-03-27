@@ -34,13 +34,13 @@ const SideBar = () => {
       {/* Sidebar */}
       <div
         className={`${
-          isOpen ? "w-[286px] bg-white z-[999] ml-[2em] mt-[2.80em] rounded-[8px]" : "w-6"
-        } h-screen p-5 pt-8 fixed transition-all duration-800 left-0`}
+          isOpen ? "md:w-[286px] w-[90%] bg-white z-[999] md:ml-[2em] ml-[1em] mt-[2.80em] rounded-[8px] " : "w-6"
+        } h-screen p-5 pt-8 fixed transition-all duration-200 left-0`}
       >
         {/* Menu Button */}
         <Image
           src={menuBar}
-          className="absolute top-5 right-[-30px] cursor-pointer p-2 rounded-md"
+          className="absolute md:top-5 md:right-[-30px] cursor-pointer p-2 rounded-md top-[-10px] right-[-21em]"
           onClick={() => setIsOpen(!isOpen)}
           alt="menu bar"
           width={40}

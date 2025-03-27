@@ -1,12 +1,13 @@
 import React from 'react';
 
-const ButtonComponent = ({ text }) => {
+const ButtonComponent = ({ text, bgColor }) => {
   return (
-    <button className="bg-buttonColor w-[50px] h-[17px] rounded-[50px] p-[10px] text-[6px] font-[500] flex justify-center items-center text-white">
+    <button className={`w-[50px] h-[17px] rounded-[50px] p-[10px] text-[6px] font-[500] flex justify-center items-center text-white ${bgColor}`}>
       {text}
     </button>
   );
 };
+
 
 
 

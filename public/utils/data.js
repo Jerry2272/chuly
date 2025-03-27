@@ -22,7 +22,7 @@ import  card13 from '@assets/assets/card13.jpeg';
 import  cardImg13 from '@assets/assets/cardbg13.png';
 import  card15 from '@assets/assets/card15.jpeg';
 import  cardImg15 from '@assets/assets/card15bg.png';
-// import Favorite from '@assets/assets/Favorite.svg';
+import Favorite from '@assets/assets/Favorite.svg';
 import Love from '@assets/assets/Favorite.png';
 import verifyIcon from '@assets/assets/verifyIcon.svg'
 
@@ -49,7 +49,7 @@ verifyIcon:  verifyIcon,
         percent: '80% Match'    ,
         bgImg: cardImg2,
         img: card2,
-        LoveImg: Love,
+        LoveImg: Favorite,
         buttonText: 'More Info',
     },
     {
@@ -162,7 +162,7 @@ verifyIcon:  verifyIcon,
         percent: '71% Match'    ,
         bgImg: cardImg12,
         img: card12,
-        LoveImg: Love,
+        LoveImg: Favorite,
         buttonText: 'More Info',
     },
     {
